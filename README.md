@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+Weather Dashboard
+Overview
+This project is a weather dashboard application that provides users with current weather conditions for different cities. The app dynamically updates based on the selected city, displaying details such as temperature, humidity, wind speed, and weather conditions. Users can switch between metric and imperial units, and the app features a responsive design to ensure a seamless experience across various devices.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Features
+Current Weather Display: View the current weather conditions including temperature, humidity, wind speed, and description.
+Dynamic Backgrounds: Background images change dynamically based on the current weather conditions.
+Unit Toggle: Switch between Celsius and Fahrenheit to display temperature in your preferred unit.
+Search Functionality: Search for weather information by entering the city name in the search bar.
+Responsive Design: The application is optimized for all devices, ensuring a user-friendly experience on desktops, tablets, and smartphones.
+Prerequisites
+Node.js (LTS version recommended)
+npm or yarn (included in the project)
 
-## Available Scripts
 
-In the project directory, you can run:
+Installation
+Clone the Repository:
 
-### `npm start`
+git clone https://github.com/your-username/Weather-app.git
+Navigate to the Project Directory:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+cd weather-dashboard
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Install Dependencies:
 
-### `npm run build`
+npm install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Start the Development Server:
+npm start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+Usage
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Open your browser and navigate to http://localhost:3000 to view the app.
+Use the search bar to find weather information for any city.
+Toggle between Celsius and Fahrenheit by clicking the unit switch.
+The background will automatically adjust to reflect the weather conditions.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Project Structure
+/src/components: Contains React components such as the search bar, unit toggle, and weather card.
+/src/assets: Contains images used for dynamic backgrounds based on weather conditions.
+/src/utils: Utility functions used across the application.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Technologies Used
+React.js: A JavaScript library for building user interfaces.
+Tailwind CSS: A utility-first CSS framework for styling.
+Weather API: Used to fetch current weather data.
