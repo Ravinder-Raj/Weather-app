@@ -21,7 +21,7 @@ Navigate to the Project Directory:
 
 
 
-cd weather-dashboard
+cd weather-app
 
 Install Dependencies:
 
